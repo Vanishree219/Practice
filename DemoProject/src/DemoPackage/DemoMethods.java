@@ -116,7 +116,7 @@ public class DemoMethods {
 		
 		}
 		
-		if(num<19) {
+		if(num<=19) {
 			for(Map.Entry<Integer,String> me:hm1.entrySet()) {
 				
 				if(me.getKey()==num) {
